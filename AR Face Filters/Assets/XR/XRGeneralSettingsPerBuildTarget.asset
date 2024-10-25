@@ -15,7 +15,8 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: 74c9e8dabd2373c4aa50df9063133ffc, type: 2}
 --- !u!114 &-2383534010612248068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,11 +73,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 070000000100000004000000
+  Keys: 0700000001000000040000000d000000
   Values:
   - {fileID: -368829342446891495}
   - {fileID: 833854501877232043}
   - {fileID: -2347858256055395348}
+  - {fileID: 1298568650218430442}
 --- !u!114 &833854501877232043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +93,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 7972294507053562893}
   m_InitManagerOnStart: 1
+--- !u!114 &1298568650218430442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: WebGL Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 2423840196702449481}
+  m_InitManagerOnStart: 1
+--- !u!114 &2423840196702449481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: WebGL Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
 --- !u!114 &7972294507053562893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,5 +138,4 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders:
-  - {fileID: 11400000, guid: debcd732330e5e54e8909514db84355b, type: 2}
+  m_Loaders: []

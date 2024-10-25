@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Basic_Face_Filter.unity
     guid: 6628464edff4641448bc83aa5bcc5380
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 632a7ed88d9aede4585f1d8f16365136,
+      type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 74e43252f9a76fa4d93258db531a4a5d,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: cd57478dceaefb444b8278a98748b1ce,
@@ -20,4 +22,6 @@ EditorBuildSettings:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: aa787938bfa7e4c42ba82421edc128be,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1d01421408cd99c4caa2fae1a10c40e2,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 833da78a0508a2a4cb97fb9fd23c9261,
       type: 2}
